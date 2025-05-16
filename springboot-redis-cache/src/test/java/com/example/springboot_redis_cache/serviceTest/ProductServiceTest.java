@@ -59,6 +59,7 @@ public class ProductServiceTest {
         Assertions.assertEquals(exception.getMessage(), "Product not found with id 10");
     }
 
+    // Test case for deleting the product by id
     @Test
     void deleteProductByIdTest() {
         Mockito.doNothing().when(productRepo).deleteById(1);
