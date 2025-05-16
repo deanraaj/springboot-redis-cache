@@ -28,3 +28,11 @@ This is a simple Spring Boot project demonstrating CRUD operations with Redis ca
 | GET    | `/product/{id}`  | Get product by ID     |
 | PUT    | `/product/{id}`  | Update product by ID  |
 | DELETE | `/product/{id}`  | Delete product by ID  |
+
+
+## 📌 How to Run
+
+1. Make sure Redis is running on your machine
+2. Run the application:
+```bash
+mvn spring-boot:run
